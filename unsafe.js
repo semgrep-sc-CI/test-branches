@@ -8,3 +8,8 @@ function unsafe_encrypt(data) {
     cipher_text += cipher.final('base64');
     return cipher_text;
 }
+
+function tesCrypto-PR() {
+    var crypto = require('crypto');
+    var cipher = crypto.createCipher('des-abcdefgh', config.pwd);
+}
